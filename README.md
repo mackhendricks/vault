@@ -1,2 +1,5 @@
-# vault-cloudhsm
-Configuring Vault with a AWS Cloud HSM
+# Configuring Vault with a AWS Cloud HSM
+
+# Configure CloudHSM 
+
+# Install Vault
