@@ -4,8 +4,10 @@
 # Install Vault
 
 ```
+cp vault /usr/local/bin
 sudo mkdir /etc/vault
 sudo mkdir -p /var/lib/vault/data
+cp <vault_license> /etc/vault/vault.lic
 ```
 
 ```
