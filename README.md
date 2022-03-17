@@ -5,14 +5,14 @@
 
 ```
 cp vault /usr/local/bin
-sudo mkdir /etc/vault
-sudo mkdir -p /var/lib/vault/data
+mkdir /etc/vault
+mkdir -p /var/lib/vault/data
 cp <vault_license> /etc/vault/vault.lic
 ```
 
 ```
-sudo useradd --system --home /etc/vault --shell /bin/false vault
-sudo chown -R vault:vault /etc/vault /var/lib/vault/
+useradd --system --home /etc/vault --shell /bin/false vault
+chown -R vault:vault /etc/vault /var/lib/vault/
 ```
 
 ```
