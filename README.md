@@ -3,8 +3,15 @@
 
 # Install Vault
 
+```
+sudo mkdir /etc/vault
+sudo mkdir -p /var/lib/vault/data
+```
+
+```
 sudo useradd --system --home /etc/vault --shell /bin/false vault
 sudo chown -R vault:vault /etc/vault /var/lib/vault/
+```
 
 ```
 cat <<EOF | sudo tee /etc/systemd/system/vault.service
