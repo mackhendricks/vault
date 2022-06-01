@@ -91,5 +91,5 @@ EOF
 # Execute this on any additional machines
 
 ```
-vault operator raft join http://<ip address of the other server>:8200
+vault operator raft join http://<ip address of the other servers>:8200
 ```
