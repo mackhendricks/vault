@@ -88,5 +88,8 @@ license_path="/etc/vault/vault.lic"
 EOF
 ```
 
+# Execute this on any additional machines
 
-
+```
+vault operator raft join http://<ip address of the other server>:8200
+```
