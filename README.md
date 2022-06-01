@@ -1,5 +1,4 @@
-# Configuring Vault with a AWS Cloud HSM
-
+# Configuring Vault on VM's with RAFT
 
 # Install Vault
 
